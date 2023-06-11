@@ -7,7 +7,8 @@ namespace Assignment_2.Controllers;
 public class DataController : ControllerBase
 {
   [HttpGet]
-  public IActionResult Get(string? number)
+  [Route("/data")]
+  public IActionResult GetData(string? number)
   {
     if (number == null)
     {

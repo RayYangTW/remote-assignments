@@ -1,14 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Assignment_2.Controllers;
+namespace Assignment_3.Controllers;
 
 [ApiController]
 [Route("[controller]")]
 public class DataController : ControllerBase
 {
   [HttpGet]
+  [Route("/data")]
   // another solution is add [FromQuery] front of string? and receive query from html.
-  public IActionResult Get(string? number)
+  public IActionResult GetData(string? number)
   {
     if (number == null)
     {

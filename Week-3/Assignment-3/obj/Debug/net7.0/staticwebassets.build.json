@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "cHWbAxAeouhma1k3a1MfaIyYAcAi6wy3wXlXPqzV/CQ=",
+  "Source": "Assignment-3",
+  "BasePath": "_content/Assignment-3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Assignment-3/wwwroot",
+      "Source": "Assignment-3",
+      "ContentRoot": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/",
+      "BasePath": "_content/Assignment-3",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/.DS_Store",
+      "SourceId": "Assignment-3",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/",
+      "BasePath": "_content/Assignment-3",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/index.js",
+      "SourceId": "Assignment-3",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/",
+      "BasePath": "_content/Assignment-3",
+      "RelativePath": "index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.js"
+    },
+    {
+      "Identity": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/style.css",
+      "SourceId": "Assignment-3",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/",
+      "BasePath": "_content/Assignment-3",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/style.css"
+    },
+    {
+      "Identity": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/sum.html",
+      "SourceId": "Assignment-3",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rayyang/Projects/91APP/remote-assignments/Week-3/Assignment-3/wwwroot/",
+      "BasePath": "_content/Assignment-3",
+      "RelativePath": "sum.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sum.html"
+    }
+  ]
+}

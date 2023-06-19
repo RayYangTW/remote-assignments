@@ -28,24 +28,12 @@ namespace Assignment_2
   {
     public int Add(int a, int b)
     {
-      while (b != 0)
-      {
-        int carry = a & b; // 計算進位
-        a = a ^ b; // 不進位相加
-        b = carry << 1; // 左移進位
-      }
-      return a;
+      return (a + b) * 100 / 100;
     }
 
     public int Subtract(int a, int b)
     {
-      while (b != 0)
-      {
-        int borrow = (~a) & b; // 計算借位
-        a = a ^ b; // 不借位相減
-        b = borrow << 1; // 左移借位
-      }
-      return a;
+      return (a - b) * 100 / 100;
     }
   }
 }

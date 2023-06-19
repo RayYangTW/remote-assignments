@@ -1,0 +1,45 @@
+@model Assignment_1.Models.SignupViewModel
+@{
+  ViewData["Title"] = "Signup";
+}
+@if (TempData["Message"] != null)
+{
+  <div class="d-flex justify-content-center align-items-center">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    @TempData["Message"]
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+      </button>
+    </div>
+  </div>
+}
+
+<div class="text-center">
+  <h1 class="h3 font-weight-normal mb-3">註冊</h1>
+</div>
+<div class="container" style="width: 400px;">
+  <form class="form-signup" action="signup" method="POST">
+    <div class="form-row mb-3">
+      <label class="form-label" for="email">電子信箱</label>
+      <input asp-for="Email" class="form-control" id="email" type="email" name="email" class="form-control" placeholder="Email" required
+        autofocus>
+    </div>
+    <div class="form-row mb-3">
+      <label class="form-label" for="password">密碼</label>
+      <input asp-for="Password" class="form-control" id="password" type="password" name="password" class="form-control"
+        placeholder="Password" required>
+    </div>
+    <div class="form-row mb-3">
+      <label class="form-label" for="passwordCheck">確認密碼</label>
+      <input asp-for="PasswordCheck" class="form-control" id="passwordCheck" type="password" name="passwordCheck" class="form-control"
+        placeholder="Password" required>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <button class="btn btn-primary btn-block" style="width: 150px;" type="submit">送出</button>
+    </div>
+  </form>
+  <hr>
+  <div class="row justify-content-center align-items-center">
+    <a class="btn btn-success btn-block m-2" style="width: 150px;" href="signin">我要登入</a>
+  </div>
+</div>
+
